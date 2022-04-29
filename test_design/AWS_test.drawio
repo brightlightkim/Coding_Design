@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T18:39:13.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="oB-6VkpA9v_KZXl5yNSe" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T18:46:55.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="JAxNqBFvL-3ZHGhftiVX" version="17.5.0" type="github">
   <diagram id="QgBXJNmuF9LUyoV8QWzJ" name="Page-1">
     <mxGraphModel dx="818" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,12 @@
           <mxGeometry x="130" y="300" width="630" height="430" as="geometry" />
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-3" target="U1BTU91VVIOKNPWe-Cvb-25">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="940" />
+              <mxPoint x="445" y="940" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateMedia (Lambda)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="245" y="860" width="400" height="60" as="geometry" />
@@ -133,6 +138,19 @@
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-77" value="&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Parameters&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;contentId&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;mediaId&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;recording&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;fileType&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;additionalFileTypes&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;/workflow/create-vod/index.js&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;mock behavior and make an Unknown Error&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="245" y="1310" width="400" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-83" value="Media" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="445" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-84" value="baseFileName" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="430" y="1070" as="geometry">
+            <mxPoint x="16" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-85" value="S3: Put File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="430" y="1200" as="geometry">
+            <mxPoint x="16" y="10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
