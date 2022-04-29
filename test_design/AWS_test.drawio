@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T17:58:14.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="j3m1_qua8KRx_7jBRqta" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T18:39:13.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="oB-6VkpA9v_KZXl5yNSe" version="17.5.0" type="github">
   <diagram id="QgBXJNmuF9LUyoV8QWzJ" name="Page-1">
     <mxGraphModel dx="818" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="160" width="700" height="1720" as="geometry" />
+          <mxGeometry x="90" y="160" width="700" height="2950" as="geometry" />
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="130" y="790" width="630" height="980" as="geometry" />
+          <mxGeometry x="130" y="790" width="630" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-2" target="U1BTU91VVIOKNPWe-Cvb-18">
           <mxGeometry relative="1" as="geometry" />
@@ -16,7 +16,10 @@
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="130" y="300" width="630" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="U1BTU91VVIOKNPWe-Cvb-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateMedia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-3" target="U1BTU91VVIOKNPWe-Cvb-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateMedia (Lambda)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="245" y="860" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-6" value="BeforeEach" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -61,17 +64,75 @@
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-20" value="create content and scheduleItems" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="440" y="630" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U1BTU91VVIOKNPWe-Cvb-22" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateMedia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1300" width="400" height="60" as="geometry" />
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-23" target="U1BTU91VVIOKNPWe-Cvb-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-23" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateDerivativeAssets&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1090" width="400" height="60" as="geometry" />
+          <mxGeometry x="245" y="1120" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U1BTU91VVIOKNPWe-Cvb-24" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateMedia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="245" y="1200" width="400" height="60" as="geometry" />
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-24" value="&lt;font style=&quot;font-size: 20px&quot;&gt;RadioCreateDefaultVOD (Lambda)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1250" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-25" target="U1BTU91VVIOKNPWe-Cvb-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U1BTU91VVIOKNPWe-Cvb-25" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Record&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="245" y="980" width="400" height="60" as="geometry" />
+          <mxGeometry x="245" y="990" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-26" value="&lt;font style=&quot;font-size: 20px&quot;&gt;UpdateStatusFailed (Lambda)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1760" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2010" width="630" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-49" target="U1BTU91VVIOKNPWe-Cvb-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-49" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateMedia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2080" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-52" value="&lt;font style=&quot;font-size: 20px&quot;&gt;CreateDerivativeAssets (ECS:runTask.sync)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2340" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-56" target="U1BTU91VVIOKNPWe-Cvb-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-56" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Record&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2210" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-57" target="U1BTU91VVIOKNPWe-Cvb-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-57" value="&lt;font style=&quot;font-size: 20px&quot;&gt;UpdateStatusFailed&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2870" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-58" value="Workflow ECS Task Step Function Error" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1960" width="630" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-64" target="U1BTU91VVIOKNPWe-Cvb-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-74" value="Unknown Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="U1BTU91VVIOKNPWe-Cvb-73">
+          <mxGeometry x="-0.1614" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-64" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Parameters&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;mediaId&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;base_file_name&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;default_file_type&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;conversion_file_type&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;/workflow/create-derivative-assets&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Run the docker with data (Mock this behavior to test it)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2400" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-69" value="&lt;font style=&quot;font-size: 20px&quot;&gt;SLACK&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2960" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="1" source="U1BTU91VVIOKNPWe-Cvb-77" target="U1BTU91VVIOKNPWe-Cvb-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-82" value="Unknown Error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" vertex="1" connectable="0" parent="U1BTU91VVIOKNPWe-Cvb-79">
+          <mxGeometry x="0.3786" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1BTU91VVIOKNPWe-Cvb-77" value="&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Parameters&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;contentId&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;mediaId&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;recording&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;fileType&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;additionalFileTypes&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;/workflow/create-vod/index.js&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul style=&quot;text-align: left&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;mock behavior and make an Unknown Error&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1310" width="400" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
