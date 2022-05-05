@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T23:22:32.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" version="18.0.0" etag="gb0z6mxuvk8YnHH_hUML" type="github"><diagram id="UWAthEfEnvusqKB0UQxu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-05T23:31:47.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="YBr_S_DkUkEK1wHC07Jn" version="18.0.0" type="github">
+  <diagram id="UWAthEfEnvusqKB0UQxu" name="Page-1">
+    <mxGraphModel dx="809" dy="1115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="966YcsSU23yooCnuJUwa-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-1" value="Group" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="966YcsSU23yooCnuJUwa-3" target="966YcsSU23yooCnuJUwa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-3" value="Blind Date Platform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-4" value="Group" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-5" value="Group" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="434" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="966YcsSU23yooCnuJUwa-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-6" value="Invite Code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="966YcsSU23yooCnuJUwa-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="510" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-7" value="Global Group" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-11" value="Group" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="966YcsSU23yooCnuJUwa-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-14" value="Create Group" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="966YcsSU23yooCnuJUwa-15" value="Group" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
