@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T21:10:20.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="AxYU5yKxRPh2DwSxZCQg" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T21:17:18.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Hq4L9Bhah9gd5kbP8EF_" version="18.0.1" type="github">
   <diagram id="ny3oVwAZ4V_wvto3aZBs" name="Page-1">
     <mxGraphModel dx="809" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,78 @@
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Close_Icon-128.png" vertex="1" parent="1">
           <mxGeometry x="220" y="726" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yP4ieVi-nLM1ygez4TLR-34" target="yP4ieVi-nLM1ygez4TLR-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yP4ieVi-nLM1ygez4TLR-34" target="yP4ieVi-nLM1ygez4TLR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-34" value="daos.mediaFile.put" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1183" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-35" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1" source="yP4ieVi-nLM1ygez4TLR-36" target="yP4ieVi-nLM1ygez4TLR-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1452" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-36" value="Current:&lt;br&gt;with S3 Secret Info&lt;br&gt;Directly Connect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1273" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yP4ieVi-nLM1ygez4TLR-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="1360" />
+              <mxPoint x="610" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yP4ieVi-nLM1ygez4TLR-38" target="yP4ieVi-nLM1ygez4TLR-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-38" value="Desired:&lt;br&gt;&amp;nbsp;S3 presigned URL to avoid holdng secret data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1273" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-39" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1413" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="yP4ieVi-nLM1ygez4TLR-41" target="yP4ieVi-nLM1ygez4TLR-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="1370" />
+              <mxPoint x="630" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-41" value="service-media" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1422" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-42" value="File to be changed&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="359" y="1253" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-43" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1263" width="42" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-44" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1411.5" width="42" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Close_Icon-128.png" vertex="1" parent="1">
+          <mxGeometry x="57" y="1253" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-46" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Close_Icon-128.png" vertex="1" parent="1">
+          <mxGeometry x="220" y="1169" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-49" value="2. GET upload URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-50" value="1. Request GET upload URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1360" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-54" value="3. Request Post to upload recording" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1280" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
