@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T21:17:15.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="P16p-xtIpcL15HbXY9_z" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T21:26:37.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ZnEr7oMxUkS6t4e8WNdz" version="18.0.1" type="github">
   <diagram id="ny3oVwAZ4V_wvto3aZBs" name="Page-1">
     <mxGraphModel dx="782" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,12 +62,10 @@
         <mxCell id="yP4ieVi-nLM1ygez4TLR-36" value="Current:&lt;br&gt;with S3 Secret Info&lt;br&gt;Directly Connect" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="153" y="929" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yP4ieVi-nLM1ygez4TLR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="EooDAORPQ9iUzGNVsF7X-5" edge="1">
+        <mxCell id="yP4ieVi-nLM1ygez4TLR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EooDAORPQ9iUzGNVsF7X-5" edge="1" target="yP4ieVi-nLM1ygez4TLR-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="1000" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="620" y="1001" />
-            </Array>
+            <Array as="points" />
             <mxPoint x="609.5" y="914" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
@@ -86,7 +84,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-41" value="service-media" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="589.5" y="1003" width="120" height="60" as="geometry" />
+          <mxGeometry x="589.5" y="929" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-42" value="File to be changed&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="359" y="787" width="110" height="20" as="geometry" />
@@ -95,7 +93,7 @@
           <mxGeometry x="93" y="922" width="42" height="81" as="geometry" />
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-44" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="729.5" y="992.5" width="42" height="81" as="geometry" />
+          <mxGeometry x="720" y="908" width="42" height="81" as="geometry" />
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Close_Icon-128.png" parent="1" vertex="1">
           <mxGeometry x="70" y="915" width="88" height="88" as="geometry" />
@@ -104,10 +102,10 @@
           <mxGeometry x="169" y="686" width="88" height="88" as="geometry" />
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-49" value="2. GET upload URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="651.5" y="930" width="120" height="20" as="geometry" />
+          <mxGeometry x="651.5" y="880" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-50" value="1. Request GET upload URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="450" y="930" width="170" height="20" as="geometry" />
+          <mxGeometry x="450" y="880" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yP4ieVi-nLM1ygez4TLR-54" value="3. Request Post with presigned URL to upload recording" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="279.5" y="807" width="310" height="20" as="geometry" />
