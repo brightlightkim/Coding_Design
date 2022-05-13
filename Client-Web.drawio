@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T21:00:03.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="s8SFnEZSv8w7vBGoPD7m" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T22:10:31.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="xgwdleHGugrWTssWOdK4" version="18.0.2" type="github">
   <diagram id="KVkmmPwVQmfWWxQEtupK" name="Page-1">
     <mxGraphModel dx="884" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,22 +38,22 @@
           <mxGeometry x="430" y="610" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FUJfKl6aa2QapM7-k-7x-15" value="Personalization" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="730" y="150" width="320" height="320" as="geometry" />
+          <mxGeometry x="720" y="150" width="330" height="320" as="geometry" />
         </mxCell>
         <mxCell id="FUJfKl6aa2QapM7-k-7x-16" value="Pages" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="730" y="490" width="320" height="320" as="geometry" />
+          <mxGeometry x="720" y="490" width="330" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="FUJfKl6aa2QapM7-k-7x-17" value="Delete: Not Updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="800" y="585" width="180" height="60" as="geometry" />
+        <mxCell id="FUJfKl6aa2QapM7-k-7x-17" value="Delete: Not Updated&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Favorite&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;My List&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="795" y="570" width="180" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="FUJfKl6aa2QapM7-k-7x-19" value="Delete: Updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="810" y="230" width="160" height="60" as="geometry" />
+        <mxCell id="FUJfKl6aa2QapM7-k-7x-19" value="Delete: Updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="805" y="230" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FUJfKl6aa2QapM7-k-7x-20" value="Add: Updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="800" y="660" width="180" height="60" as="geometry" />
+        <mxCell id="FUJfKl6aa2QapM7-k-7x-20" value="Add: Updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="795" y="700" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FUJfKl6aa2QapM7-k-7x-21" value="Add: Updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="810" y="305" width="160" height="60" as="geometry" />
+        <mxCell id="FUJfKl6aa2QapM7-k-7x-21" value="Add: Updated" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="805" y="305" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FUJfKl6aa2QapM7-k-7x-23" value="&lt;b&gt;Possible Solution 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;ListSection:&lt;br&gt;&lt;br&gt;If it&#39;s Favorite Section, check data from personalization." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="200" y="840" width="420" height="140" as="geometry" />
