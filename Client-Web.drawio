@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T20:52:35.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="wt1AGXhixu2AcZY4KiN_" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T21:00:03.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="s8SFnEZSv8w7vBGoPD7m" version="18.0.2" type="github">
   <diagram id="KVkmmPwVQmfWWxQEtupK" name="Page-1">
     <mxGraphModel dx="884" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,16 +56,16 @@
           <mxGeometry x="810" y="305" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FUJfKl6aa2QapM7-k-7x-23" value="&lt;b&gt;Possible Solution 1&lt;/b&gt;&lt;br&gt;&lt;br&gt;ListSection:&lt;br&gt;&lt;br&gt;If it&#39;s Favorite Section, check data from personalization." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="200" y="840" width="420" height="170" as="geometry" />
+          <mxGeometry x="200" y="840" width="420" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="FUJfKl6aa2QapM7-k-7x-24" value="&lt;b&gt;Possible Solution 2&lt;/b&gt;&lt;br&gt;&lt;br&gt;ListSection:&lt;br&gt;&lt;br&gt;When delete, update it both personalization and page section." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="640" y="840" width="410" height="170" as="geometry" />
+        <mxCell id="FUJfKl6aa2QapM7-k-7x-24" value="&lt;b&gt;Possible Solution 2&lt;/b&gt;&lt;br&gt;&lt;br&gt;ListSection:&lt;br&gt;&lt;br&gt;When delete, update the page section as well." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="410" height="140" as="geometry" />
         </mxCell>
         <mxCell id="FUJfKl6aa2QapM7-k-7x-25" value="&lt;b&gt;In this case,&lt;/b&gt;&lt;br&gt;&lt;br&gt;Figure out how page gets those data to display&lt;br&gt;and fix them or updating them each time" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1040" width="410" height="110" as="geometry" />
+          <mxGeometry x="640" y="1000" width="410" height="130" as="geometry" />
         </mxCell>
         <mxCell id="FUJfKl6aa2QapM7-k-7x-26" value="&lt;b&gt;Possible Solution 3&lt;/b&gt;&lt;br&gt;&lt;br&gt;Somehow refresh it or cause the whole system to get the data and reload (mutation)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1040" width="420" height="110" as="geometry" />
+          <mxGeometry x="200" y="1000" width="420" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
