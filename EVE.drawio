@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T16:30:26.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Cd3fqo2t6pPdelPZTIfo" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T16:38:08.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ftzznYS0FvZhgOyU2fOQ" version="18.0.6" type="github">
   <diagram id="M8sAi99D3wYmP6poNxop" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,12 @@
         </mxCell>
         <mxCell id="dvrULnuWH1hM13txu6G7-9" value="Response Generator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="339" y="370" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvrULnuWH1hM13txu6G7-10" value="Node Class&lt;br&gt;Search As a Map&lt;br&gt;How many times it used.&lt;br&gt;&lt;br&gt;Use the the most used out of used ones out of calculation based on how many sentences were involved in the conversation (Search it through the BST)&lt;br&gt;&lt;br&gt;So get word out of Join through SQL &amp;gt;&amp;gt; Use them and ask them about it&lt;br&gt;&lt;br&gt;Vector Space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="90" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dvrULnuWH1hM13txu6G7-11" value="How to Use them:&lt;br&gt;&lt;br&gt;- We might not use the already used one too much &amp;gt;&amp;gt; make a randomness there.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="300" width="220" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
