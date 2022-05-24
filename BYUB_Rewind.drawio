@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T23:15:54.516Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" version="18.0.3" etag="YVOsQwR1EJwGQ0PMmXgP" type="github"><diagram id="ZTcMBytY86qPL3wdXQQr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-24T23:28:02.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="QdaYKKLiuv60khmE18X6" version="18.0.3" type="github">
+  <diagram id="ZTcMBytY86qPL3wdXQQr" name="Page-1">
+    <mxGraphModel dx="710" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h2JM3-zbyorCBhI83ONb-1" value="Player" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="210" y="110" width="540" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="h2JM3-zbyorCBhI83ONb-2" value="Player-Container" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="520" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="h2JM3-zbyorCBhI83ONb-3" value="Video (Video.js)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="500" height="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
