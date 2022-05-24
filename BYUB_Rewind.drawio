@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T23:33:59.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="_NUc_KD6ms-k7NkT0iwX" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T23:57:21.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="3W6FDv2a4r-CcOAllUuZ" version="18.0.3" type="github">
   <diagram id="ZTcMBytY86qPL3wdXQQr" name="Page-1">
-    <mxGraphModel dx="710" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1537" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="h2JM3-zbyorCBhI83ONb-1" value="Player (Components/player/index.vue)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="210" y="110" width="540" height="960" as="geometry" />
+          <mxGeometry x="210" y="110" width="540" height="600" as="geometry" />
         </mxCell>
         <mxCell id="h2JM3-zbyorCBhI83ONb-2" value="Player-Container" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="220" y="140" width="520" height="920" as="geometry" />
+          <mxGeometry x="220" y="140" width="520" height="550" as="geometry" />
         </mxCell>
         <mxCell id="h2JM3-zbyorCBhI83ONb-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Video (Video.js)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="230" y="170" width="500" height="230" as="geometry" />
@@ -23,10 +23,24 @@
           <mxGeometry x="240" y="440" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="h2JM3-zbyorCBhI83ONb-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Count-down&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="230" y="520" width="500" height="460" as="geometry" />
+          <mxGeometry x="230" y="520" width="500" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="h2JM3-zbyorCBhI83ONb-9" value="&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;remianing-time&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;paused&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;cancel-cont&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;context-index&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="h2JM3-zbyorCBhI83ONb-9" value="&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;remianing-time&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;paused&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;cancel-cont&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;context-index&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="240" y="550" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="h2JM3-zbyorCBhI83ONb-10" value="Video.js" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="780" y="110" width="520" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="h2JM3-zbyorCBhI83ONb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.397;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="h2JM3-zbyorCBhI83ONb-11" target="h2JM3-zbyorCBhI83ONb-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-60" y="70" />
+              <mxPoint x="424" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2JM3-zbyorCBhI83ONb-11" value="src/layout/default.vue" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="110" width="540" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
