@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T21:23:27.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="CK5cZche0CqBZA3WgOJU" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-25T22:14:45.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="gUyLtZ5Gx8ZxGok7X5ls" version="18.1.2" type="github">
   <diagram id="ZTcMBytY86qPL3wdXQQr" name="Page-1">
     <mxGraphModel dx="1700" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
         <mxCell id="h2JM3-zbyorCBhI83ONb-9" value="&lt;ul style=&quot;font-size: 15px;&quot;&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;remianing-time&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;paused&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;cancel-cont&lt;/li&gt;&lt;li style=&quot;font-size: 15px;&quot;&gt;context-index&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="240" y="550" width="230" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="h2JM3-zbyorCBhI83ONb-10" value="src/components/player/index.vue&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Watch (Item)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;changed?&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;isLive (210)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.src(source)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;toggle(&#39;vjs-live&#39;, true)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;else&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;toggle(&#39;vjs-live&#39;, false)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.offset(source)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.src(source)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;else&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.poster(poster)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;palyer.offset(source)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.src(source)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;if isLive&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;this.setDuration()&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;now new Date()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;offset = Math.floor(Math.random() * 5000)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;if ! timeout&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;setTimeout()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;vm.loadcurrentItemFromSchedule()&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;api.getNextScheduledItems(24)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;{basePath}/schedule/next?limit=limit&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;vm.setDuration()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;msDuration (end - now + offset)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="780" y="120" width="520" height="600" as="geometry" />
+        <mxCell id="h2JM3-zbyorCBhI83ONb-10" value="src/components/player/index.vue&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Watch (Item)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;changed?&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;isLive (210)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.src(source)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;toggle(&#39;vjs-live&#39;, true)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;else&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;toggle(&#39;vjs-live&#39;, false)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.offset(source)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.src(source)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;else&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.poster(poster)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;palyer.offset(source)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.src(source)&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;if isLive (This updates the custom videojs components in the control bar and full-screen here.)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;this.setDuration()&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;now new Date()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;offset = Math.floor(Math.random() * 5000)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;if ! timeout&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;setTimeout()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;vm.loadcurrentItemFromSchedule()&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;api.getNextScheduledItems(24)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;{basePath}/schedule/next?limit=limit&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;vm.setDuration()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;msDuration (end - now + offset)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.on(&#39;timeupdaate&#39;, ()=&amp;gt;&amp;nbsp; this.remainingTime = player.remainingTime()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;player.on(&quot;pause&#39; () =&amp;gt; true&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;if this is live &amp;gt;&amp;gt; setDuration&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;controls&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;this.player.controlBar.children_&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;controlBar.progresssControl&lt;/b&gt;.children_.find( (c)=&amp;gt; c instanceof Segments) 278&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;if (segments)&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;segments &amp;gt;&amp;gt;&amp;gt; update with segment list: contentSements, media with contentItem.media&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;timetooltip = this.player.getChild&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;controlBar&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;progressControl&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;seekBar&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;mouseTimeDisplay&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;timeTooltip&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;timeTooltip.setSegments(contentSegements)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;for video content we update the URL when we open new content is played. For audio we do it when entering / exiting full screen&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;if videoOnly&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;setOpenQuerystring()&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="940" y="20" width="520" height="790" as="geometry" />
         </mxCell>
         <mxCell id="h2JM3-zbyorCBhI83ONb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.397;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" parent="1" source="h2JM3-zbyorCBhI83ONb-11" target="h2JM3-zbyorCBhI83ONb-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -139,11 +139,111 @@
         <mxCell id="TA7xKyf28JtDq5Jn_cOT-34" value="Question: How can I get the updated version of the Video Continuously?" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="165" y="1330" width="450" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="TA7xKyf28JtDq5Jn_cOT-35" value="1st TASK: Change the Video.js Format that it can go back to some point." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="580" y="840" width="310" height="70" as="geometry" />
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-35" value="1st TASK: Change the Video.js Format that it can go back to some point.&lt;br&gt;- Change the UI&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="745" width="310" height="65" as="geometry" />
         </mxCell>
         <mxCell id="TA7xKyf28JtDq5Jn_cOT-36" value="2nd TASK: Change URL Call if it&#39;s impossible to get the updated version of the video continuously." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="580" y="935" width="310" height="70" as="geometry" />
+          <mxGeometry x="580" y="925" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-44" value="src/store/player.js/actions/rewind&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;rewind(323)&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;const time = vjsPlayer.currentTime()&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;vjsPlayer.currentTime(time - seconds)&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="830" width="520" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-46" target="TA7xKyf28JtDq5Jn_cOT-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-46" value="Simpler Rewind Algorithm" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontSize=16;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1160" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-48" target="TA7xKyf28JtDq5Jn_cOT-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-48" value="LIVE STREAM" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1250" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-51" target="TA7xKyf28JtDq5Jn_cOT-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-51" target="TA7xKyf28JtDq5Jn_cOT-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-51" value="Clicks to Back" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1430" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-54" target="TA7xKyf28JtDq5Jn_cOT-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-54" target="TA7xKyf28JtDq5Jn_cOT-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-54" value="Cursor on&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1340" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-56" target="TA7xKyf28JtDq5Jn_cOT-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-56" value="Shows How Many Minutes Behind&lt;br&gt;- Format: -MM:SS" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1340" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-58" target="TA7xKyf28JtDq5Jn_cOT-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-58" value="Tied to Vue Element Value of the Time" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1345" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-60" target="TA7xKyf28JtDq5Jn_cOT-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-60" value="Recorded Video" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1530" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-62" target="TA7xKyf28JtDq5Jn_cOT-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-62" value="EdgeCast API" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1530" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-64" value="vjsPlayer.currentTime(time - seconds)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="945" y="1540" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-67" target="TA7xKyf28JtDq5Jn_cOT-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-67" target="TA7xKyf28JtDq5Jn_cOT-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-67" value="Clicks Close to Live" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1640" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-68" value="Shows the Live Button On" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1640" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-69" value="Turn off the Live Button" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1530" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-70" value="GET: Live URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="1650" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-71" value="Live Video" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1690" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="TA7xKyf28JtDq5Jn_cOT-73" target="TA7xKyf28JtDq5Jn_cOT-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1675" />
+              <mxPoint x="770" y="1285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-73" value="EdgeCast API" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1640" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-74" value="Question: How can I get the updated version of the Video Continuously?" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="1740" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-75" value="2nd TASK: When the User clicks &amp;gt;&amp;gt; not stop the video, but only pause when the user clicks the button &amp;gt;&amp;gt; Then move to the place when we click the time bar." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="830" width="310" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
