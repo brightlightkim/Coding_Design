@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T22:14:45.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="gUyLtZ5Gx8ZxGok7X5ls" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-26T00:14:04.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="EeqREEZBHud2i9SBPwAj" version="18.1.2" type="github">
   <diagram id="ZTcMBytY86qPL3wdXQQr" name="Page-1">
-    <mxGraphModel dx="1700" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,6 +244,9 @@
         </mxCell>
         <mxCell id="TA7xKyf28JtDq5Jn_cOT-75" value="2nd TASK: When the User clicks &amp;gt;&amp;gt; not stop the video, but only pause when the user clicks the button &amp;gt;&amp;gt; Then move to the place when we click the time bar." style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="580" y="830" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TA7xKyf28JtDq5Jn_cOT-76" value="Fix the Level 4 Bug first&lt;br&gt;Click &amp;gt;&amp;gt; Go Back&lt;br&gt;Remove the Live CSS&lt;br&gt;get the percent&lt;br&gt;move to the place &amp;gt;&amp;gt; check if it&#39;s disabled during the live session." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1630" width="480" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
